@@ -15,5 +15,6 @@
 }
 
 
-//the "targets" specify that we want to support all Browsers used by more than 0.25% of people
-//that are still officially supported by their creator
+// the "targets" specify that we want to support all Browsers used by more than 0.25% of people
+// that are still officially supported by their creator
+
