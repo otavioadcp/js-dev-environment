@@ -6,8 +6,8 @@
   "homepage": "https://github.com/otavioadcp/js-dev-environment#readme",
   "author": "Otavioadcp",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
-    "start" : "node buildScripts/srcServer.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
+    "start" : "babel-node buildScripts/srcServer.js",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel start localtunnel"
   },
